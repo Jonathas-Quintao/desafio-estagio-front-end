@@ -4,7 +4,7 @@
       <template v-slot:prepend>
         <v-app-bar-nav-icon @click="toggleDrawer"></v-app-bar-nav-icon>
       </template>
-      <v-app-bar-title>Inicial</v-app-bar-title>
+      <v-app-bar-title>{{ titleStore.title }}</v-app-bar-title>
 
       <v-btn icon @click="toggleTheme">
         <v-icon>{{ currentTheme === 'light' ? 'mdi-weather-night' : 'mdi-white-balance-sunny' }}</v-icon>
@@ -30,7 +30,9 @@
 import { ref, watch } from 'vue';
 import { useThemeStore } from './stores/ThemeStore';
 import vuetify from './plugins/vuetify';
+import { useTitleStore } from './stores/TitleStore';
 
+const titleStore = useTitleStore();
 const themeStore = useThemeStore();
 const currentTheme = ref(themeStore.theme);
 
