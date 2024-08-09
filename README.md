@@ -1,9 +1,9 @@
 # Desafio estágio Front-end
 
-Esse é um projeto desenvolvido para uma vaga de estágio front-end!
+- Esse é um projeto desenvolvido para uma vaga de estágio front-end!
 
-Para instalação, basta clonar o projeto e realiar um npm i
-Após isso utilizar o npm run dev
+- Para instalação, basta clonar o projeto e realiar um npm i
+- Após isso utilizar o npm run dev
 
 ## Libs utilizadas
 
