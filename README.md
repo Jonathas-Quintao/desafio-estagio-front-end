@@ -7,11 +7,12 @@ Esse é um projeto desenvolvido para uma vaga de estágio front-end!
 - Chart.js
 - DatePicker
 - Vuetify
+- DateFns
 
 
 ## Gráfico
 
-A página inicial é composta por um DatePicker, o qual o usuário escolhe o range de dias e é plotado um gráfico com o Chart.js com base no Json fornecido pela TECSCI.
+A página inicial é composta por um DatePicker, o qual o usuário escolhe o range de dias e é plotado um gráfico com o Chart.js com base no Json fornecido pela TECSCI. Foi utilizada a Date-fns para formatação da data.
 
 ## API IBGE
 
