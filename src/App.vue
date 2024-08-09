@@ -1,4 +1,4 @@
-<!-- App.vue -->
+
 <template>
   <v-app>
     <v-app-bar class="bg-blue-darken-1" flat>
@@ -20,5 +20,5 @@
 </template>
 
 <script setup>
-// script setup do App.vue não precisa de nenhum código adicional por enquanto
+
 </script>

@@ -1,12 +1,12 @@
-// router.js ou main.js
+
 
 import { createMemoryHistory, createRouter } from 'vue-router'
 import HomeView from '../pages/HomeView.vue'
-import IbgeView from '../pages/IbgeView'  // Corrigir o nome aqui
+import IbgeView from '../pages/IbgeView'  
 
 const routes = [
   { path: '/', component: HomeView },
-  { path: '/ibge', component: IbgeView },  // Corrigir o nome aqui
+  { path: '/ibge', component: IbgeView },  
 ]
 
 const router = createRouter({
