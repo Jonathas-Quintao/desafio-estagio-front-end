@@ -1,20 +1,15 @@
-/**
- * main.js
- *
- * Bootstraps Vuetify and other plugins then mounts the App`
- */
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import App from './App.vue';
+import vuetify from './plugins/vuetify';
+import router from './router';
 
-// Plugins
-import { registerPlugins } from '@/plugins'
+const app = createApp(App);
 
-// Components
-import App from './App.vue'
+const pinia = createPinia(); 
 
-// Composables
-import { createApp } from 'vue'
+app.use(router);
+app.use(pinia); 
+app.use(vuetify); 
 
-const app = createApp(App)
-
-registerPlugins(app)
-
-app.mount('#app')
+app.mount('#app');
