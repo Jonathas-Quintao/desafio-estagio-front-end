@@ -34,7 +34,7 @@ import vuetify from './plugins/vuetify';
 const themeStore = useThemeStore();
 const currentTheme = ref(themeStore.theme);
 
-const drawer = ref(false);
+const drawer = ref(true);
 
 const toggleDrawer = () => {
   drawer.value = !drawer.value;
