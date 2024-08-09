@@ -1,6 +1,7 @@
 <template>
     <div class="chart-and-datepicker">
         <div class="datepicker-container">
+            <p :style="{ color: '#000' }">O Json possui dados apenas do mês de Julho.</p>
             <VueDatePicker v-model="selectedDates" range multi-calendars @change="filterData" :format="dateFormat"
                 :locale="dateLocale" />
 
