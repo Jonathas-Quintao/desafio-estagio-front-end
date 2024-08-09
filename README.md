@@ -20,14 +20,13 @@ Há a conexão, por meio do axios, na API do IBGE na parte de países. É realiz
 
 ## Responsividade
 
-A aplicação é totalmente responsivo, e inclui um dark-mode.
+A aplicação é totalmente responsiva, e inclui um dark-mode.
 
 ## Pinia
 Foi utilizado o Pinia para gereciar o light-mode e dark-mode, além de passar o título para a página em destaque no menu.
 
 ## Vuetify
-Foram utilizados os componentes para fazer a app
--bar, a navegação drawer e os icones.
+Foram utilizados os componentes para fazer a app-bar, a navegação drawer e os icones.
 
 ## Rotas
 Foi utilizado o Vue Route para criar a navegação de rotas.
